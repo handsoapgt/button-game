@@ -66,7 +66,7 @@ function nextSequence() {
     $("#level-title").text("Level " + level);
 
 
-    var randInt = Math.floor(3 * Math.random()) + 1;
+    var randInt = Math.floor(4 * Math.random());
     gamePattern.push(buttonColours[randInt]);
     flashButton(buttonColours[randInt]);
     playAudio(buttonColours[randInt]);
